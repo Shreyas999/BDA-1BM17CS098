@@ -1,0 +1,35 @@
+WORKING WITH MONGODB
+CREATE DATABASE IN MONGODB.
+use myDB;
+Confirm the existence of your database
+db;
+To list all databases
+show dbs;
+CRUD (CREATE, READ, UPDATE, DELETE) OPERATIONS
+To create a collection by the name “Student”. Let us take a look at the collection list prior to the creation of the new collection “Student”.
+
+    db.createCollection(“Student”);      =>    sql equivalent   CREATE TABLE STUDENT(…); 
+To drop a collection by the name “Student”.
+
+     db.Student.drop();
+
+Create a collection by the name “Students” and store the following data in it.
+
+db.Student.insert({_id:1,StudName:"MichelleJacintha",Grade:"VII",Hobbies:"InternetSurfing"});
+
+
+FIND METHOD
+
+A. To search for documents from the “Students” collection based on certain search criteria.
+
+db.Student.find({StudName:"Aryan David"});
+
+
+
+
+
+To Create
+1.  College Database
+Collections  1. Student   2. Faculty   3. COE    4. Library  5. Admission 
+ 6. College Festival - Minimum 6 attributes (4 values with different set of attribute -value pair) - A set of 4 documents
+
