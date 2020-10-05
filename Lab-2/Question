@@ -1,0 +1,14 @@
+1. Create Company database with following collections
+   1. Employee
+  2. Department
+Perform following MongoDB Operations
+1. Insert at least five documents in each collection using all three methods of insertion.{ Show update method using upsert set to true and set to false}
+2. Update "Employee" collection  to add new field to an existing document .
+3. Remove a field from an existing document
+4. Select all documents from  both collections.
+5. Select only employee name and department number whose department number falls between 1001 to 1005
+6. Select employee documents whose  name begins with 'A'
+7. Select employee document s whose age is greater than 30
+
+
+
