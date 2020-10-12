@@ -19,8 +19,8 @@ db.Customers.aggregate([{$group:
     }
 }]);
 
-mongoexport -d test -c Customers -f cust_id,acc_bal,acc_type --type csv -o Customerdetails.csv
+mongoexport -d lab3 -c Customers -f cust_id,acc_bal,acc_type --type csv -o Customerdetails.csv
 
 db.Customers.drop();
 
-mongoimport -d test -c Customers --type csv --file Customerdetails.csv --headerline
+mongoimport -d lab3 -c Customers --type csv --file Customerdetails.csv --headerline
