@@ -1,0 +1,7 @@
+Execute the following
+1. Create  a keyspace by name Student
+2. Create a column family by name Student-Info with attributes 
+    Student_Id Primary Key, Stude_Name, Date_of_Joining, Semester,   
+    Dept_Name
+3. Insert the values into the table in batch
+3.  Update Student name  of Student_Id 121
